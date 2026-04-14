@@ -9,7 +9,7 @@ const WhatsAppMsg = () => {
   return (
     <>
        <a
-        href={`https://wa.me/${phone}?text=${message}`}
+        // href={`https://wa.me/${phone}?text=${message}`}
         target='_blank'
         rel='noopener noreferrer'
         className='fixed bottom-5 left-5 bg-green-500 hover:bg-green-800 text-white p-4 rounded-full shadow-lg z-50'
